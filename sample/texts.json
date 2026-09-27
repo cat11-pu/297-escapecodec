@@ -1,0 +1,11 @@
+{
+  "budget": 1,
+  "escape_error_code": "E_BAD_ESCAPE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "encoded": [], "decoded": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "escape", "text": "a\nb" },
+    { "id": 2, "kind": "unescape", "text": "x\\ty" },
+    { "id": 3, "kind": "escape", "text": "\\" }
+  ]
+}
